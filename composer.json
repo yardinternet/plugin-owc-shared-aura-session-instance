@@ -1,0 +1,14 @@
+{
+	"name": "plugin/owc-shared-aura-session-instance",
+	"description": "WordPress must-use plugin for doing stuff",
+	"license": "GPL-2.0+",
+	"type": "wordpress-muplugin",
+	"require": {
+		"composer/installers": "^1.0 | ^2.0"
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
+	}
+}
